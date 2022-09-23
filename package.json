@@ -1,0 +1,17 @@
+{
+  "name": "pact-example-jest",
+  "version": "1.0.0",
+  "description": "Jest Pact example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest __tests__/ --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^10.1.4",
+    "axios": "^0.27.2",
+    "jest": "^28.1.3"
+  }
+}
